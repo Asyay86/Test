@@ -15,7 +15,7 @@ C:/Users/UTOPIA/Game Design/Tower def
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56398
+50466
 Successfully changed project path to: C:/Users/UTOPIA/Game Design/Tower def
 C:/Users/UTOPIA/Game Design/Tower def
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/UTOPIA/Game Design/Tower def
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [38176] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 1048900923 [EditorId] 1048900923 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LN65VSP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24792] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 1742219014 [EditorId] 1742219014 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LN65VSP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [38176] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 1048900923 [EditorId] 1048900923 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LN65VSP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24792] Host "[IP] 192.168.1.21 [Port] 0 [Flags] 2 [Guid] 1742219014 [EditorId] 1742219014 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LN65VSP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 36.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path E:/Program Files/Unity Studio/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'E:/Program Files/Unity Studio/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Program Files/Unity Studio/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Program Files/Unity Studio/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Program Files/Unity Studio/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Program Files/Unity Studio/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000994 seconds.
+Registered in 0.001389 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.309 seconds
+- Completed reload, in  0.317 seconds
 Domain Reload Profiling:
-	ReloadAssembly (310ms)
+	ReloadAssembly (317ms)
 		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (226ms)
+		EndReloadAssembly (232ms)
 			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (51ms)
+			SetupTypeCache (53ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (13ms)
-			SetupLoadedEditorAssemblies (137ms)
+			RebuildScriptCaches (14ms)
+			SetupLoadedEditorAssemblies (140ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
+				RefreshPlugins (36ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002211 seconds.
+Registered in 0.002238 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\UTOPIA\Game Design\Tower def\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\UTOPIA\Game Design\Tower def\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.478 seconds
+- Completed reload, in  0.491 seconds
 Domain Reload Profiling:
-	ReloadAssembly (479ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (492ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (10ms)
-		EndReloadAssembly (371ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (125ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (165ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (167ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (36ms)
-				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadAttributes (117ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3048 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (113.5 KB). Loaded Objects now: 3508.
 Memory consumption went from 107.6 MB to 107.5 MB.
-Total: 1.465900 ms (FindLiveObjects: 0.119000 ms CreateObjectMapping: 0.035500 ms MarkObjects: 1.255100 ms  DeleteObjects: 0.055500 ms)
+Total: 1.627000 ms (FindLiveObjects: 0.136600 ms CreateObjectMapping: 0.080100 ms MarkObjects: 1.359200 ms  DeleteObjects: 0.050300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,25 +166,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1055850.014381 seconds.
-  path: Assets/3D objects/woodmap.blend
-  artifactKey: Guid(18aebbb16f5308f42bea34b0f0c20d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D objects/woodmap.blend using Guid(18aebbb16f5308f42bea34b0f0c20d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e7b3f57c675ba56b7595d5c60ef770') in 0.077787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1179.288724 seconds.
-  path: Assets/3D objects/map.blend
-  artifactKey: Guid(3776c899e0214f943b82fc274afc27ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D objects/map.blend using Guid(3776c899e0214f943b82fc274afc27ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4db86b1f53e97839b88639fa6cd24a4') in 0.393358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1861.288384 seconds.
-  path: Assets/3D objects/textures/istockphoto-1437430016-612x612.jpg
-  artifactKey: Guid(9a7f0dce1086344448e2f719cca864e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D objects/textures/istockphoto-1437430016-612x612.jpg using Guid(9a7f0dce1086344448e2f719cca864e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc0df9bad63c68077fe001eaf57febd') in 0.056276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.876344 seconds.
-  path: Assets/3D objects/blueTile.mat
-  artifactKey: Guid(fcb5c11f538c8b94bbc0ed590906f19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D objects/blueTile.mat using Guid(fcb5c11f538c8b94bbc0ed590906f19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baca66a5b50fadafc48bf640119d41ed') in 0.007826 seconds 
+  Time since last request: 1134794.607770 seconds.
+  path: Assets/3D objects/iceMap.blend
+  artifactKey: Guid(b52e644cd3737c3409f363f3ccbaf459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D objects/iceMap.blend using Guid(b52e644cd3737c3409f363f3ccbaf459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055d83ab7fb1fc37445634f8b1ee3210') in 0.183698 seconds 
